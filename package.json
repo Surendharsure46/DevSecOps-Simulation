@@ -1,0 +1,24 @@
+{
+  "name": "devsecops-sim-lab",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Threatready | DevSecOps Lab: hands-on secrets, SAST, SCA, container, IaC, CI/CD gate and DAST labs in the browser.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
+    "@vitejs/plugin-react": "4.5.2",
+    "typescript": "5.9.3",
+    "vite": "6.4.4"
+  }
+}
